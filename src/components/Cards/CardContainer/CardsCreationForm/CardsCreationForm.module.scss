@@ -1,0 +1,32 @@
+.container {
+    margin-top: 5vw;
+    display: grid;
+    grid-template-rows: 1fr;
+    grid-template-columns: 1fr 1.5fr 1fr;
+}
+
+label {
+    margin: 0 2vw;
+}
+
+.labelContainer{
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+    grid-template-columns: 1fr;
+    grid-gap: 7px;
+    color:white;
+    font-size: 1.4em;
+}
+
+.inputContainer {
+    display: grid;
+    grid-template-rows: 0.5fr 0.5fr 0.5fr 0.5fr 0.5fr 0.5fr;
+    grid-template-columns: 1fr;
+    grid-gap: 3px;
+}
+
+.sendInput {
+    height: 21px;
+    align-self: center;
+    margin-left: 15px;
+}

@@ -1,0 +1,24 @@
+.welcomeContainer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    background-color: rgb(0,30,43);
+}
+
+.linkContainer {
+    font-size: 1.2em;
+    background-color: orangered;
+    padding: 5px;
+    border-radius: 25%;
+    color: black;
+    margin-left: 7vw;
+}
+
+.linkContainer:hover {
+    color: white;
+}
+
+.link {
+    text-decoration: none;
+}

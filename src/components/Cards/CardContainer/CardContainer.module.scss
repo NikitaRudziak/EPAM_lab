@@ -1,0 +1,11 @@
+.container {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    background-color: rgb(0, 16, 23)
+}
+
+.noCards {
+    color: white;
+    font-size: 16em;
+}
